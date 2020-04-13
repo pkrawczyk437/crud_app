@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+
+.menu-icon {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.menu-icon > img.line {
+    display: block;
+    width: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img.line {
+    opacity: 0.3;
+}
+
+img.line:hover{
+    opacity: 1;
+}
+
+img.line:hover + .menu-anchors{
+    display: block;
+}
+
+
+.menu-anchors {
+    width: 182px;
+    position: absolute;
+    left: 44%;
+    display: none;
+}
+
+
+.menu-anchors:hover {
+    display: block;
+
+}
+
+
+.menu-anchor {
+    text-decoration: none;
+    border: none;
+    font: 16px "Levenim MT";
+    color: black;
+    display: block;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    width: 220px;
+}
+
+.menu-anchor:hover {
+    background-color: rgba(128, 128, 128, 0.60);
+    font-size: 30px;
+    border: 2px solid grey;
+    white-space: nowrap;
+}

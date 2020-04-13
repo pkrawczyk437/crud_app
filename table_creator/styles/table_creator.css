@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    font: 50px "Cordia New";
+}
+
+section > h1{
+    text-align: center;
+}
+
+
+.form-table {
+    position: relative;
+}
+
+.form-div {
+    width: 500px;
+    height: 255px;
+    background-color: #07A0C3;
+    margin: -40px auto;
+    text-align: center;
+    color: #F8F8F8;
+    font: 19px "Vani";
+    padding: 10px;
+    border-radius: 8px;
+}
+
+input {
+    width: 50%;
+    display: block;
+    margin: 5px auto;
+    background-color: #F7F7FF;
+    border-radius: 20px;
+}
+
+input[type="button"] {
+    background-color: #EFF6EE;
+    font: 16px "Vani";
+    height: 40px;
+    line-height: 40px;
+}
+
+a[href="../index.html"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 10%;
+    text-align: center;
+    text-decoration: none;
+    background-color: #07A0C3;
+    border: 10px solid white;
+    border-radius: 20px;
+    color: #fff;
+    font: 16px "Vani";
+    padding-top: 5px;
+    padding-bottom: 5px;
+}

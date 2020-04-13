@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Table creator - todo app</title>
+    <link rel="stylesheet" href="styles/table_creator.css">
+    <script src="scripts/table_creator.js"></script>
+</head>
+
+<body>
+    <header>
+        <h2>Creating table form</h2>
+    </header>
+    <section class="form-table">
+    <form class="table-creator-form" id="table_creator" method="post" action="scripts/php/adding.php">
+        <div class="form-div">
+        <label>
+            Name of list:
+            <input type="text" name="listHeader" id="ulHeader"/>
+        </label>
+        <label>
+            Li amount in your list:
+            <input type="text"  name="listItems" id="liAmount"/>
+        </label>
+        <br/>
+        <input type="button" onclick="listCreator();" value="Send data"/>
+        </div>
+    </form>
+    <a href="../index.html">Back to homepage</a>
+</section>
+</body>
+
+</html>

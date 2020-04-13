@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.table-container {
+    position: relative;
+    width: 500px;
+    height: 310px;
+    margin: 0 auto;
+    top: 25px;
+}
+
+
+table {
+    background-color: #fff;
+    width: 40%;
+    box-shadow: 3px 3px 3px 3px #808080;
+    border-collapse: collapse;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 70px;
+}
+
+.hiperlink1{
+    background-color: rgba(5, 223, 237, 0.93);
+    text-decoration: none;
+    color: rgb(43, 40, 41);
+    position: absolute;
+    top: 0;
+    left: 150px;
+    width: 150px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font: 24px "Arabic Typesetting";
+    float: left;
+}
+
+.hiperlink2{
+    background-color: rgba(5, 223, 237, 0.93);
+    text-decoration: none;
+    color: rgb(43, 40, 41);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font: 24px "Arabic Typesetting";
+    float: left;
+}
+
+
+.edit_delete {
+    background-color: rgb(194, 194, 194);
+    text-decoration: none;
+    color: rgb(43, 40, 41);
+    display: block;
+    width: 150px;
+    height: 30px;
+    line-height: 25px;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font: 24px "Arabic Typesetting";
+    margin: 0 auto;
+}
+
+.edit_delete:hover {
+    background-color: rgb(171, 171, 171);
+}
+
+
+th {
+    font: 25px "EucrosiaUPC";
+    height: 50px;
+    border-collapse: collapse;
+    background-color: rgb(5, 223, 237);
+    text-align: center;
+    padding: 15px;
+}
