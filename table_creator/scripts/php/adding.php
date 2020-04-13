@@ -37,7 +37,7 @@ else
     }
     echo "
     <br/>
-    <link rel='stylesheet' href='../../css/tables.css'>
+    <link rel='stylesheet' href='../../styles/tables.css'>
     <a href='list_view.php'>Go to ul view</a>";
 }
 exit;
