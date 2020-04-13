@@ -5,7 +5,7 @@ require 'connection.php';
     <head>
         <meta charset="utf-8">
         <title>Search input result page</title>
-        <link rel='stylesheet' href='../../css/search_result.css'>
+        <link rel='stylesheet' href='../../styles/search_result.css'>
     </head>
     <body>
         <a class='hiperlink1' href='list_view.php'>Back to searching</a>
