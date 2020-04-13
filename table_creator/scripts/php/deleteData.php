@@ -1,6 +1,6 @@
 <?php
 
-echo "<link rel='stylesheet' href='../../css/tables.css'>";
+echo "<link rel='stylesheet' href='../../styles/tables.css'>";
 require 'connection.php';
 if(isset($_GET['item_id']))
 {
