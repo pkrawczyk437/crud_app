@@ -5,7 +5,7 @@ require 'connection.php';
     <head>
         <meta charset="utf-8">
         <title>Edit searched table data</title>
-        <link rel='stylesheet' href='../../css/tables.css'>
+        <link rel='stylesheet' href='../../styles/tables.css'>
     </head>
     <body>
         <form action='editData.php' method='GET'>
